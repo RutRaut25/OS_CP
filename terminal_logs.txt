@@ -1,0 +1,398 @@
+[INIT] Cleared/created output_phase2.txt and terminal_logs.txt
+[ALLOC] Allocated frame 15
+
+[LOAD] New Job: JID=0001 TTL=10 TLL=10 PTR=150
+[ALLOC] Allocated frame 14
+[LOAD] Loading program card into frame 14 (real addr 140..149): GD20PD20LR20SR23BT07GD19H
+[LOAD] Starting execution phase for Job: 0001
+[ADDR_MAP] VA=0 -> frame=14 offset=0 -> RA=140
+[EXEC] JID=0001 IC=0 IR=GD20 TTC=1
+[ALLOC] Allocated frame 17
+[ADDR_MAP] VA=20 -> frame=17 offset=0 -> RA=170
+[EXEC] GD instruction - requesting input for operand 20 (gen_address=170)
+[ADDR_MAP] VA=1 -> frame=14 offset=1 -> RA=141
+[EXEC] JID=0001 IC=1 IR=PD20 TTC=2
+[ADDR_MAP] VA=20 -> frame=17 offset=0 -> RA=170
+[EXEC] PD instruction - will write memory at gen_address=170
+[PD] Writing output for JID=0001 from gen_address=170..179
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+(PD) finished writing block starting at 170
+[ADDR_MAP] VA=2 -> frame=14 offset=2 -> RA=142
+[EXEC] JID=0001 IC=2 IR=LR20 TTC=3
+[ADDR_MAP] VA=20 -> frame=17 offset=0 -> RA=170
+[EXEC] LR - load register from gen_address=170
+[ADDR_MAP] VA=3 -> frame=14 offset=3 -> RA=143
+[EXEC] JID=0001 IC=3 IR=SR23 TTC=4
+[ADDR_MAP] VA=23 -> frame=17 offset=3 -> RA=173
+[EXEC] SR - store register to gen_address=173
+[ADDR_MAP] VA=4 -> frame=14 offset=4 -> RA=144
+[EXEC] JID=0001 IC=4 IR=BT07 TTC=5
+[ADDR_MAP] VA=7 -> frame=14 offset=7 -> RA=147
+[EXEC] BT - branch if toggle set to address 7
+[ADDR_MAP] VA=5 -> frame=14 offset=5 -> RA=145
+[EXEC] JID=0001 IC=5 IR=GD19 TTC=6
+[ALLOC] Allocated frame 9
+[ADDR_MAP] VA=19 -> frame=9 offset=9 -> RA=99
+[EXEC] GD instruction - requesting input for operand 19 (gen_address=99)
+[ADDR_MAP] VA=6 -> frame=14 offset=6 -> RA=146
+[EXEC] JID=0001 IC=6 IR=H    TTC=7
+[ADDR_MAP] VA=-176 -> frame=-176 offset=-6 -> RA=-1766
+[EXEC] H (HALT) encountered
+[HALT] Job ID: 0001
+  No Error
+IC : 7
+IR : H   
+TTC : 7
+TTL : 10
+LLC : 1
+TLL : 10
+[ALLOC] Allocated frame 20
+[LOAD] Loading program card into frame 20 (real addr 200..209): Hello, Myself Yash
+[ALLOC] Allocated frame 15
+
+[LOAD] New Job: JID=0002 TTL=15 TLL=12 PTR=150
+[ALLOC] Allocated frame 14
+[LOAD] Loading program card into frame 14 (real addr 140..149): GD15PD10LR15SR18BT05GD12H
+[LOAD] Starting execution phase for Job: 0002
+[ADDR_MAP] VA=0 -> frame=14 offset=0 -> RA=140
+[EXEC] JID=0002 IC=0 IR=GD15 TTC=1
+[ALLOC] Allocated frame 17
+[ADDR_MAP] VA=15 -> frame=17 offset=5 -> RA=175
+[EXEC] GD instruction - requesting input for operand 15 (gen_address=175)
+[ADDR_MAP] VA=1 -> frame=14 offset=1 -> RA=141
+[EXEC] JID=0002 IC=1 IR=PD10 TTC=2
+[ADDR_MAP] VA=10 -> frame=17 offset=0 -> RA=170
+[EXEC] PD instruction - will write memory at gen_address=170
+[PD] Writing output for JID=0002 from gen_address=170..179
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+(PD) finished writing block starting at 170
+[ADDR_MAP] VA=2 -> frame=14 offset=2 -> RA=142
+[EXEC] JID=0002 IC=2 IR=LR15 TTC=3
+[ADDR_MAP] VA=15 -> frame=17 offset=5 -> RA=175
+[EXEC] LR - load register from gen_address=175
+[ADDR_MAP] VA=3 -> frame=14 offset=3 -> RA=143
+[EXEC] JID=0002 IC=3 IR=SR18 TTC=4
+[ADDR_MAP] VA=18 -> frame=17 offset=8 -> RA=178
+[EXEC] SR - store register to gen_address=178
+[ADDR_MAP] VA=4 -> frame=14 offset=4 -> RA=144
+[EXEC] JID=0002 IC=4 IR=BT05 TTC=5
+[ADDR_MAP] VA=5 -> frame=14 offset=5 -> RA=145
+[EXEC] BT - branch if toggle set to address 5
+[ADDR_MAP] VA=5 -> frame=14 offset=5 -> RA=145
+[EXEC] JID=0002 IC=5 IR=GD12 TTC=6
+[ADDR_MAP] VA=12 -> frame=17 offset=2 -> RA=172
+[EXEC] GD instruction - requesting input for operand 12 (gen_address=172)
+[ADDR_MAP] VA=6 -> frame=14 offset=6 -> RA=146
+[EXEC] JID=0002 IC=6 IR=H    TTC=7
+[ADDR_MAP] VA=-176 -> frame=-176 offset=-6 -> RA=-1766
+[EXEC] H (HALT) encountered
+[HALT] Job ID: 0002
+  No Error
+IC : 7
+IR : H   
+TTC : 7
+TTL : 15
+LLC : 1
+TLL : 12
+[ALLOC] Allocated frame 9
+[LOAD] Loading program card into frame 9 (real addr 90..99): Operating System Simulation Program
+[ALLOC] Allocated frame 15
+
+[LOAD] New Job: JID=0003 TTL=20 TLL=15 PTR=150
+[ALLOC] Allocated frame 14
+[LOAD] Loading program card into frame 14 (real addr 140..149): GD25PD15LR25SR30BT10GD20H
+[LOAD] Starting execution phase for Job: 0003
+[ADDR_MAP] VA=0 -> frame=14 offset=0 -> RA=140
+[EXEC] JID=0003 IC=0 IR=GD25 TTC=1
+[ALLOC] Allocated frame 17
+[ADDR_MAP] VA=25 -> frame=17 offset=5 -> RA=175
+[EXEC] GD instruction - requesting input for operand 25 (gen_address=175)
+[GD] Read from input and loaded into memory at gen_address=175: Testing multiple instructions
+[ADDR_MAP] VA=1 -> frame=14 offset=1 -> RA=141
+[EXEC] JID=0003 IC=1 IR=PD15 TTC=2
+[ALLOC] Allocated frame 9
+[ADDR_MAP] VA=15 -> frame=9 offset=5 -> RA=95
+[EXEC] PD instruction - will write memory at gen_address=95
+[PD] Writing output for JID=0003 from gen_address=95..104
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+(PD) finished writing block starting at 95
+[ADDR_MAP] VA=2 -> frame=14 offset=2 -> RA=142
+[EXEC] JID=0003 IC=2 IR=LR25 TTC=3
+[ADDR_MAP] VA=25 -> frame=17 offset=5 -> RA=175
+[EXEC] LR - load register from gen_address=175
+[ADDR_MAP] VA=3 -> frame=14 offset=3 -> RA=143
+[EXEC] JID=0003 IC=3 IR=SR30 TTC=4
+[ADDR_MAP] Page fault for VA=30 (page 3) at PTE=153
+[EXEC] SR - store register to gen_address=-1
+[ADDR_MAP] VA=4 -> frame=14 offset=4 -> RA=144
+[EXEC] JID=0003 IC=4 IR=BT10 TTC=5
+[ADDR_MAP] VA=10 -> frame=9 offset=0 -> RA=90
+[EXEC] BT - branch if toggle set to address 10
+[ADDR_MAP] VA=5 -> frame=14 offset=5 -> RA=145
+[EXEC] JID=0003 IC=5 IR=GD20 TTC=6
+[ADDR_MAP] VA=20 -> frame=17 offset=0 -> RA=170
+[EXEC] GD instruction - requesting input for operand 20 (gen_address=170)
+[GD] Read from input and loaded into memory at gen_address=170: $AMJ000400100008
+[ALLOC] Allocated frame 20
+[ADDR_MAP] VA=6 -> frame=14 offset=6 -> RA=146
+[EXEC] JID=0003 IC=6 IR=H    TTC=7
+[ADDR_MAP] VA=-176 -> frame=-176 offset=-6 -> RA=-1766
+[EXEC] H (HALT) encountered
+[HALT] Job ID: 0003
+  No Error
+IC : 7
+IR : H   
+TTC : 7
+TTL : 20
+LLC : 1
+TLL : 15
+[ALLOC] Allocated frame 16
+[LOAD] Loading program card into frame 16 (real addr 160..169): This is a test program for Phase 2
+[ALLOC] Allocated frame 25
+[LOAD] Loading program card into frame 25 (real addr 250..259): Testing multiple instructions
+[ALLOC] Allocated frame 15
+
+[LOAD] New Job: JID=0004 TTL=10 TLL=8 PTR=150
+[ALLOC] Allocated frame 14
+[LOAD] Loading program card into frame 14 (real addr 140..149): GD10PD05LR10SR12BT04GD08H
+[LOAD] Starting execution phase for Job: 0004
+[ADDR_MAP] VA=0 -> frame=14 offset=0 -> RA=140
+[EXEC] JID=0004 IC=0 IR=GD10 TTC=1
+[ALLOC] Allocated frame 17
+[ADDR_MAP] VA=10 -> frame=17 offset=0 -> RA=170
+[EXEC] GD instruction - requesting input for operand 10 (gen_address=170)
+[ADDR_MAP] VA=1 -> frame=14 offset=1 -> RA=141
+[EXEC] JID=0004 IC=1 IR=PD05 TTC=2
+[ADDR_MAP] VA=5 -> frame=14 offset=5 -> RA=145
+[EXEC] PD instruction - will write memory at gen_address=145
+[PD] Writing output for JID=0004 from gen_address=145..154
+GD08
+H   
+    
+    
+    
+1 14
+  17
+  **
+  **
+  **
+(PD) finished writing block starting at 145
+[ADDR_MAP] VA=2 -> frame=14 offset=2 -> RA=142
+[EXEC] JID=0004 IC=2 IR=LR10 TTC=3
+[ADDR_MAP] VA=10 -> frame=17 offset=0 -> RA=170
+[EXEC] LR - load register from gen_address=170
+[ADDR_MAP] VA=3 -> frame=14 offset=3 -> RA=143
+[EXEC] JID=0004 IC=3 IR=SR12 TTC=4
+[ADDR_MAP] VA=12 -> frame=17 offset=2 -> RA=172
+[EXEC] SR - store register to gen_address=172
+[ADDR_MAP] VA=4 -> frame=14 offset=4 -> RA=144
+[EXEC] JID=0004 IC=4 IR=BT04 TTC=5
+[ADDR_MAP] VA=4 -> frame=14 offset=4 -> RA=144
+[EXEC] BT - branch if toggle set to address 4
+[ADDR_MAP] VA=5 -> frame=14 offset=5 -> RA=145
+[EXEC] JID=0004 IC=5 IR=GD08 TTC=6
+[ADDR_MAP] VA=8 -> frame=14 offset=8 -> RA=148
+[EXEC] GD instruction - requesting input for operand 8 (gen_address=148)
+[ADDR_MAP] VA=6 -> frame=14 offset=6 -> RA=146
+[EXEC] JID=0004 IC=6 IR=H    TTC=7
+[ADDR_MAP] VA=-176 -> frame=-176 offset=-6 -> RA=-1766
+[EXEC] H (HALT) encountered
+[HALT] Job ID: 0004
+  No Error
+IC : 7
+IR : H   
+TTC : 7
+TTL : 10
+LLC : 1
+TLL : 8
+[ALLOC] Allocated frame 9
+[LOAD] Loading program card into frame 9 (real addr 90..99): Short Program
+[ALLOC] Allocated frame 15
+
+[LOAD] New Job: JID=0005 TTL=25 TLL=20 PTR=150
+[ALLOC] Allocated frame 14
+[LOAD] Loading program card into frame 14 (real addr 140..149): GD30PD25LR30SR35BT12GD28H
+[LOAD] Starting execution phase for Job: 0005
+[ADDR_MAP] VA=0 -> frame=14 offset=0 -> RA=140
+[EXEC] JID=0005 IC=0 IR=GD30 TTC=1
+[ALLOC] Allocated frame 17
+[ADDR_MAP] VA=30 -> frame=17 offset=0 -> RA=170
+[EXEC] GD instruction - requesting input for operand 30 (gen_address=170)
+[GD] Read from input and loaded into memory at gen_address=170: Multiple lines of input data here
+[ADDR_MAP] VA=1 -> frame=14 offset=1 -> RA=141
+[EXEC] JID=0005 IC=1 IR=PD25 TTC=2
+[ALLOC] Allocated frame 9
+[ADDR_MAP] VA=25 -> frame=9 offset=5 -> RA=95
+[EXEC] PD instruction - will write memory at gen_address=95
+[PD] Writing output for JID=0005 from gen_address=95..104
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+(PD) finished writing block starting at 95
+[ADDR_MAP] VA=2 -> frame=14 offset=2 -> RA=142
+[EXEC] JID=0005 IC=2 IR=LR30 TTC=3
+[ADDR_MAP] VA=30 -> frame=17 offset=0 -> RA=170
+[EXEC] LR - load register from gen_address=170
+[ADDR_MAP] VA=3 -> frame=14 offset=3 -> RA=143
+[EXEC] JID=0005 IC=3 IR=SR35 TTC=4
+[ADDR_MAP] VA=35 -> frame=17 offset=5 -> RA=175
+[EXEC] SR - store register to gen_address=175
+[ADDR_MAP] VA=4 -> frame=14 offset=4 -> RA=144
+[EXEC] JID=0005 IC=4 IR=BT12 TTC=5
+[ADDR_MAP] Page fault for VA=12 (page 1) at PTE=151
+[EXEC] BT - branch if toggle set to address 12
+[ADDR_MAP] VA=5 -> frame=14 offset=5 -> RA=145
+[EXEC] JID=0005 IC=5 IR=GD28 TTC=6
+[ADDR_MAP] VA=28 -> frame=9 offset=8 -> RA=98
+[EXEC] GD instruction - requesting input for operand 28 (gen_address=98)
+[ALLOC] Allocated frame 20
+[ADDR_MAP] VA=6 -> frame=14 offset=6 -> RA=146
+[EXEC] JID=0005 IC=6 IR=H    TTC=7
+[ADDR_MAP] VA=-176 -> frame=-176 offset=-6 -> RA=-1766
+[EXEC] H (HALT) encountered
+[HALT] Job ID: 0005
+  No Error
+IC : 7
+IR : H   
+TTC : 7
+TTL : 25
+LLC : 1
+TLL : 20
+[ALLOC] Allocated frame 16
+[LOAD] Loading program card into frame 16 (real addr 160..169): Large test program with more data
+[ALLOC] Allocated frame 25
+[LOAD] Loading program card into frame 25 (real addr 250..259): Multiple lines of input data here
+[ALLOC] Allocated frame 19
+[LOAD] Loading program card into frame 19 (real addr 190..199): Testing various operations
+[ALLOC] Allocated frame 19
+
+[LOAD] New Job: JID=0006 TTL=5 TLL=10 PTR=190
+[ALLOC] Allocated frame 15
+[LOAD] Loading program card into frame 15 (real addr 150..159): LR99PD99H
+[LOAD] Starting execution phase for Job: 0006
+[ADDR_MAP] VA=0 -> frame=15 offset=0 -> RA=150
+[EXEC] JID=0006 IC=0 IR=LR99 TTC=1
+[ADDR_MAP] Page fault for VA=99 (page 9) at PTE=199
+[EXEC] LR - load register from gen_address=-1
+[ADDR_MAP] VA=1 -> frame=15 offset=1 -> RA=151
+[EXEC] JID=0006 IC=1 IR=PD99 TTC=2
+[ALLOC] Allocated frame 23
+[ADDR_MAP] VA=99 -> frame=23 offset=9 -> RA=239
+[EXEC] PD instruction - will write memory at gen_address=239
+[PD] Writing output for JID=0006 from gen_address=239..248
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+(PD) finished writing block starting at 239
+[HALT] Job ID: 0006
+  INVALID PAGE FAULT
+IC : 2
+IR : PD99
+TTC : 2
+TTL : 5
+LLC : 1
+TLL : 10
+[ADDR_MAP] VA=2 -> frame=15 offset=2 -> RA=152
+[PD] Writing output for JID=0006 from gen_address=239..248
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+(PD) finished writing block starting at 239
+[HALT] Job ID: 0006
+  INVALID PAGE FAULT
+IC : 3
+IR : H   
+TTC : 3
+TTL : 5
+LLC : 2
+TLL : 10
+[ALLOC] Allocated frame 13
+[LOAD] Loading program card into frame 13 (real addr 130..139): Page Fault Test
+[ALLOC] Allocated frame 19
+
+[LOAD] New Job: JID=0007 TTL=2 TLL=10 PTR=190
+[ALLOC] Allocated frame 15
+[LOAD] Loading program card into frame 15 (real addr 150..159): GD10PD10LR10SR11LR11SR12LR12SR13LR13SR14LR14SR15LR15SR16LR16SR17LR17SR18LR18SR19LR19SR20BT00H
+[LOAD] Starting execution phase for Job: 0007
+[ADDR_MAP] VA=0 -> frame=15 offset=0 -> RA=150
+[EXEC] JID=0007 IC=0 IR=GD10 TTC=1
+[ALLOC] Allocated frame 23
+[ADDR_MAP] VA=10 -> frame=23 offset=0 -> RA=230
+[EXEC] GD instruction - requesting input for operand 10 (gen_address=230)
+[ADDR_MAP] VA=1 -> frame=15 offset=1 -> RA=151
+[EXEC] JID=0007 IC=1 IR=PD10 TTC=2
+[ADDR_MAP] VA=10 -> frame=23 offset=0 -> RA=230
+[EXEC] PD instruction - will write memory at gen_address=230
+[PD] Writing output for JID=0007 from gen_address=230..239
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+(PD) finished writing block starting at 230
+[ADDR_MAP] VA=2 -> frame=15 offset=2 -> RA=152
+[HALT] Job ID: 0007
+  TIME LIMIT EXCEEDED
+IC : 3
+IR : LR10
+TTC : 3
+TTL : 2
+LLC : 1
+TLL : 10
+[ALLOC] Allocated frame 13
+[LOAD] Loading program card into frame 13 (real addr 130..139): TTL Error Test
+
+[MAIN] All jobs processed. Check output_phase2.txt for program outputs.
