@@ -1,81 +1,87 @@
-                                        
-Job ID: 0001
-  No Error
-IC : 7
-IR : H   
-TTC : 7
-TTL : 10
-LLC : 1
-TLL : 10
 
+--- Output for Job 0001 ---
+Hello, Myself Rut                       
+--- Output for Job 0002 ---
+                    Operating System Sim
+--- Output for Job 0003 ---
                                         
-Job ID: 0002
-  No Error
-IC : 7
-IR : H   
-TTC : 7
-TTL : 15
-LLC : 1
-TLL : 12
-
+--- Output for Job 0004 ---
+GD08H               1 09  **  **  18  **
+--- Output for Job 0005 ---
                                         
-Job ID: 0003
-  No Error
-IC : 7
-IR : H   
-TTC : 7
-TTL : 20
-LLC : 1
-TLL : 15
-
-GD08H               1 14  17  **  **  **
-Job ID: 0004
-  No Error
-IC : 7
-IR : H   
-TTC : 7
-TTL : 10
-LLC : 1
-TLL : 8
-
-                                        
-Job ID: 0005
-  No Error
-IC : 7
-IR : H   
-TTC : 7
-TTL : 25
-LLC : 1
-TLL : 20
-
-                                        
+--- Output for Job 0007 ---
+TTL Error Test                          
 Job ID: 0006
-  INVALID PAGE FAULT
+  No Error
 IC : 2
-IR : PD99
-TTC : 2
-TTL : 5
-LLC : 1
-TLL : 10
-
-
-                                        
-Job ID: 0006
-  INVALID PAGE FAULT
-IC : 3
 IR : H   
 TTC : 3
 TTL : 5
-LLC : 2
+LLC : 0
 TLL : 10
 
-                                        
+
 Job ID: 0007
   TIME LIMIT EXCEEDED
-IC : 3
+IC : 2
 IR : LR10
 TTC : 3
 TTL : 2
 LLC : 1
 TLL : 10
 
+
+Job ID: 0001
+  OUT OF DATA
+IC : 5
+IR : GD19
+TTC : 6
+TTL : 10
+LLC : 1
+TLL : 10
+
+
+Job ID: 0002
+  OUT OF DATA
+IC : 5
+IR : GD12
+TTC : 6
+TTL : 15
+LLC : 1
+TLL : 12
+
+
+Job ID: 0004
+  OUT OF DATA
+IC : 5
+IR : GD08
+TTC : 6
+TTL : 10
+LLC : 1
+TLL : 8
+
+
+Job ID: 0003
+  No Error
+IC : 6
+IR : H   
+TTC : 7
+TTL : 20
+LLC : 1
+TLL : 15
+
+
+Job ID: 0005
+  No Error
+IC : 6
+IR : H   
+TTC : 7
+TTL : 25
+LLC : 1
+TLL : 20
+
+
+========================================
+  MOS Simulation Complete — 7 job(s)
+  Frames used peak: 24 / 30
+========================================
